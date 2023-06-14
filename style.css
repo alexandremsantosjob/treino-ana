@@ -71,9 +71,10 @@ body{
     transform: rotateY(190deg);
     border: 2px #ffafcc solid;
     cursor: pointer;
+    box-shadow: 0px 0px 10px 5px #ffafcc;
     
 }
 
-.sec img:hover{
+.sec img:active{
     transform: rotateY(-190deg);
 }
