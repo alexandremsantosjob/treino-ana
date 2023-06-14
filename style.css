@@ -75,5 +75,5 @@ body{
 }
 
 .sec img:hover{
-    transform: rotateY(390deg);
+    transform: rotateY(-190deg);
 }
