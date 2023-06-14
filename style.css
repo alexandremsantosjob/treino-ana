@@ -1,0 +1,79 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #333;
+
+}
+
+.dias{
+    color: #fff;
+    display: flex;
+    border: 2px solid #333;
+    flex-wrap: wrap;
+}
+
+.dias .seg{
+
+    padding: 20px;
+    border: 1px black solid;
+    width: 120%;
+    margin-bottom: 20px;
+}
+
+
+.dias h1{
+    text-align: center;
+    margin: 20px;
+    color: #ffafcc;
+}
+
+.dias li{
+    text-align: left;
+    padding: 5px;
+}
+
+.dias b{
+    color: #ffafcc;
+}
+
+.sec{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    color: #ffafcc;
+}
+
+.sec p{
+    margin: 10px;
+    color: #fff;
+
+}
+
+.sec img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 2s;
+    transform: rotateY(190deg);
+    border: 2px #ffafcc solid;
+    cursor: pointer;
+    
+}
+
+.sec img:hover{
+    transform: rotateY(390deg);
+}
