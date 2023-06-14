@@ -83,7 +83,7 @@ body{
     cursor: pointer;
     box-shadow: 0px 0px 10px 2px black;
     animation: amy 8s infinite alternate-reverse ease-in;
-    
+    margin-top: 20px;
 }
 
 @keyframes amy {
