@@ -6,7 +6,9 @@
 
     text-decoration: none;
     list-style: none;
-    font-family: 'Raleway', sans-serif;}
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
 
 body{
     display: flex;
@@ -57,6 +59,14 @@ body{
     color: #ffafcc;
 }
 
+.sec h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+.sec h2{
+    color: #fff;
+}
 .sec p{
     margin: 10px;
     color: #fff;
@@ -68,19 +78,17 @@ body{
     height: 200px;
     border-radius: 50%;
     transition: 2s;
-    transform: rotateY(190deg);
-    border: 2px #ffafcc solid;
+
+    border: 2px;
     cursor: pointer;
-    box-shadow: 0px 0px 10px 5px #ffafcc;
+    box-shadow: 0px 0px 10px 2px black;
+    animation: amy 8s infinite alternate-reverse ease-in;
     
 }
 
-.sec img:active{
-    transform: rotateY(-190deg);
-
+@keyframes amy {
+    50%{
+        transform: rotateY(190deg);
+    }
 }
 
-.no-download{
-    pointer-events: none;
-
-}
