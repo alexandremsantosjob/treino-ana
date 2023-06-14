@@ -77,4 +77,10 @@ body{
 
 .sec img:active{
     transform: rotateY(-190deg);
+
+}
+
+.no-download{
+    pointer-events: none;
+
 }
